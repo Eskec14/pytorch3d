@@ -126,7 +126,7 @@ class RasterizationSettings:
     faces_per_pixel: int = 1
     bin_size: Optional[int] = None
     max_faces_opengl: int = 10_000_000
-    max_faces_per_bin: Optional[int] = 70000
+    max_faces_per_bin: Optional[int] = 1500000
     perspective_correct: Optional[bool] = None
     clip_barycentric_coords: Optional[bool] = None
     cull_backfaces: bool = False
